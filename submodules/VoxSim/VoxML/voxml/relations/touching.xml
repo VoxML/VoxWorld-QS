@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<VoxML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Entity Type="Relation" />
+    <Lex>
+        <Pred>touching</Pred>
+    </Lex>
+    <Type>
+        <Class>config</Class>
+        <Value>EC</Value>
+        <Args>
+            <Arg Value="x:3D" />
+            <Arg Value="y:3D" />
+        </Args>
+        <Constr />
+        <Corresps>
+            <Corresp Value="reflexive" />
+        </Corresps>
+    </Type>
+</VoxML>

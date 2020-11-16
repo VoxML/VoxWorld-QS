@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<VoxML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Entity Type="Object" />
+    <Lex>
+        <Pred>spoon</Pred>
+        <Type>physobj*artifact</Type>
+    </Lex>
+    <Type>
+        <Head>sheet[1]</Head>
+        <Components>
+            <Component Value="handle[2]" />
+            <Component Value="bowl[3]" />
+        </Components>
+        <Concavity>Concave</Concavity>
+        <RotatSym />
+        <ReflSym>YZ</ReflSym>
+    </Type>
+    <Habitat>
+        <Intrinsic>
+            <Intr Name="UP[4]" Value="align(Y,E_y)" />
+            <Intr Name="TOP[4]" Value="top(+Y)" />
+        </Intrinsic>
+        <Extrinsic>
+            <Extr Name="UP[5]" Value="align(Y,E_x|E_z)" />
+        </Extrinsic>
+    </Habitat>
+    <Afford_Str>
+        <Affordances>
+            <Affordance Formula="H-&gt;[grasp(x, [1])]hold(x, [1])" />
+            <Affordance Formula="H[4]-&gt;[put(x, in([3]))]contain([3], x)" />
+            <Affordance Formula="H[4]-&gt;[grasp(x, [2])]" />
+            <Affordance Formula="H-&gt;[lift(x, [1])]hold(x, [1])" />
+            <Affordance Formula="H[5]-&gt;[put([1], in(x))]contain(x, [1])]" />
+            <Affordance Formula="H[5],contain(x, [1])-&gt;[stir([1])]" />
+        </Affordances>
+    </Afford_Str>
+    <Embodiment>
+        <Scale>&lt;agent</Scale>
+        <Movable>true</Movable>
+    </Embodiment>
+</VoxML>

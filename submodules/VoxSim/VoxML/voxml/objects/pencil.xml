@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<VoxML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Entity Type="Object" />
+<Lex>
+    <Pred>pencil</Pred>
+    <Type>physobj*artifact</Type>
+</Lex>
+<Type>
+    <Head>cylindroid[1]</Head>
+    <Components>
+        <Component Value="lead[2]" />
+        <Component Value="nib" />
+        <Component Value="shaft[1]" />
+        <Component Value="eraser[3]" />
+        <Component Value="ferrule" />
+    </Components>
+    <Concavity>Flat</Concavity>
+    <RotatSym>Y</RotatSym>
+    <ReflSym>XY,YZ</ReflSym>
+</Type>
+<Habitat>
+    <Intrinsic />
+    <Extrinsic />
+</Habitat>
+<Afford_Str>
+    <Affordances>
+        <Affordance Formula="H-&gt;[grasp(x, [1])]" />
+        <Affordance Formula="H-&gt;[lift(x, [1])]hold(x, [1])" />
+        <Affordance Formula="H-&gt;[put([1], in(x))]contain(x, [1])]" />
+    </Affordances>
+</Afford_Str>
+<Embodiment>
+    <Scale>&lt;agent</Scale>
+    <Movable>true</Movable>
+</Embodiment>
+</VoxML>
