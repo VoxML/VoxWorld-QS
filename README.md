@@ -4,6 +4,7 @@ VoxWorld QuickStart repo with a sample scene
 This repository depends on VoxSim: https://www.github.com/VoxML/VoxSim.  Clone VoxWorld-QS, then:
 
 ```
+$ cd VoxWorld-QS
 $ git submodule init
 $ git submodule update --remote --merge
 ```
