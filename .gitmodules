@@ -1,3 +1,4 @@
 [submodule "submodules/VoxSim"]
 	path = submodules/VoxSim
 	url = https://github.com/VoxML/VoxSim
+	branch = master
