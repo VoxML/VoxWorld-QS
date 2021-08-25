@@ -1,3 +1,0 @@
-<launch>
-  <test test-name="mos_tester" pkg="qsr_lib" type="mos_tester.py" />
-</launch>

@@ -1,3 +1,0 @@
-<launch>
-  <test test-name="qtcbs_tester" pkg="qsr_lib" type="qtcbs_tester.py" time-limit="240.0" />
-</launch>

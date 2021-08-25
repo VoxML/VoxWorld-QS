@@ -1,3 +1,0 @@
-<launch>
-  <test test-name="rcc4_tester" pkg="qsr_lib" type="rcc4_tester.py" />
-</launch>
