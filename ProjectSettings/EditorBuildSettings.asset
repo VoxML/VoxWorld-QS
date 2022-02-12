@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Plugins/VoxSimPlatform/Scenes/VoxSimMenu.unity
+    guid: 39234a0128edf4e47b64b559e7f88b0c
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: d8985ed4ed0f2754898bd857007b426d
   m_configObjects: {}
